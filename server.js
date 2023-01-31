@@ -16,6 +16,7 @@ const app = express()
 require("colors")
 
 app.use(express.json())
+app.use(express.static("public"))
 app.use(cors())
 
 
